@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.0",
+    "nuxt": "^3.6.5",
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "wavesurfer-multitrack": "^0.3.1",
+    "wavesurfer.js": "^7.3.3",
+    "wavesurfer.js-vue": "^1.0.0"
+  }
+}
